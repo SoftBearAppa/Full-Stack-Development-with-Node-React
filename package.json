@@ -1,0 +1,28 @@
+{
+  "name": "full-stack-development-with-node-and-react",
+  "version": "1.0.0",
+  "description": "I go through Stephen Grider's Course on Idemy & Learn how to Implement what I've learned",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npm run dev --prefix Server",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently  \"npm run client\" \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoftBearFeet/Full-Stack-Development-with-Node-React.git"
+  },
+  "author": "Mark Schneider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoftBearFeet/Full-Stack-Development-with-Node-React/issues"
+  },
+  "homepage": "https://github.com/SoftBearFeet/Full-Stack-Development-with-Node-React#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
