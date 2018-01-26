@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "npm run dev --prefix Server",
-    "client": "npm run start --prefix client",
+    "client": "npm run start --prefix Server/client",
     "dev": "concurrently  \"npm run client\" \"npm run server\""
   },
   "repository": {
